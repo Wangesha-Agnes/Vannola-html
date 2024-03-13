@@ -9,6 +9,14 @@
     display: flex;
     gap: 2%; 
 }
+#container1{
+   background-image: url(Images/plant.jpeg); 
+   background-position: initial;
+   background-repeat: no-repeat;
+   padding: 20%;
+   background-size: auto;
+}
+
 images{
     width: 50px;
     height: 50px;
@@ -22,4 +30,28 @@ images{
     flex-direction: row;
     color: white;
     gap: 10%;
+}
+@media screen and(max-width:1200px)and (min-){
+#navbar{
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+#topnav{
+  display: flex; 
+  gap: 5%; 
+  flex-wrap: wrap;
+}
+}
+@media screen and(max-width:400px) and (min-width:0px){
+#navbar{
+    display:flex;
+    gap: 5%;
+    flex-wrap: wrap;  
+}
+#topnav{
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
 }
